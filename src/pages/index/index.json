@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "Màn hình TODO",
+  "usingComponents": {
+    "item": "components/item/index",
+    "list": "components/list/index"
+  }
+}

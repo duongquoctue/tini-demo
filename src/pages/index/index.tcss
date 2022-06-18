@@ -1,0 +1,5 @@
+.header {
+  background-color: lightblue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

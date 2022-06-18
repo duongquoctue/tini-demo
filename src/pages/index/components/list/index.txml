@@ -1,0 +1,26 @@
+<view class="list-component">
+  <checkbox-group onChange="onCheckboxChange">
+    <label tiki:for="{{list}}" tiki:for-index="i" tiki:for-item="todoItem" tiki:key="id">
+      <view class="todo-item">
+        <view>
+          {{todoItem.title.toUpperCase()}}
+          <checkbox value="{{todoItem.id}}" style="margin-left: 5px" />
+          <button size="small" onTap="showTodoItem" data-todo-item="{{todoItem}}">Show/Hide Info</button>
+          <button size="small" type="ghost" onTap="removeTodoItem" data-todo-item="{{todoItem}}"
+            style="color: red">Remove</button>
+        </view>
+
+        <view tiki:if="{{todoItem.showing}}">
+          {{todoItem.checked ? "-- DONE --" : "-- NOT DONE --"}}
+          {{todoItem.desc}}
+        </view>
+      </view>
+    </label>
+  </checkbox-group>
+
+  <view class="add-todo">+ 
+    Còn cái add lười viết quá
+  </view>
+
+
+</view>

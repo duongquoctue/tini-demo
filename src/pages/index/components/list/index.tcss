@@ -1,0 +1,16 @@
+.list-component {
+  background-color: white;
+}
+
+.todo-item {
+  background-color: lightgrey;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.add-todo {
+  margin-top: 5px;
+  background-color: pink;
+  font-size: 15px;
+  text-align: center;
+}

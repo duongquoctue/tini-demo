@@ -1,0 +1,2 @@
+<view class="header">Welcome to TODO demo</view>
+<list list="{{list}}" />

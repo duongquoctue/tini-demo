@@ -1,0 +1,21 @@
+{
+  "name": "tini-demo-ts",
+  "version": "0.1.0",
+  "tiki": {
+    "appIdentifier": "vn.tueduong.miniapp.todo",
+    "buildNumber": 1
+  },
+  "dependencies": {
+    "@tiki.vn/redux-miniprogram-bindings": "^1.4.4",
+    "@tiki.vn/tini-types": "^0.3.0",
+    "@tiki.vn/tini-ui": "^0.12.0",
+    "@types/lodash-es": "^4.17.6",
+    "lodash-es": "^4.17.21",
+    "redux": "^4.2.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
+}

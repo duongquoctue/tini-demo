@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": false,
+    "noUnusedLocals": true,
+    "noEmit": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true,
+    "target": "ES5",
+    "noImplicitAny": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "noUnusedParameters": true,
+    "alwaysStrict": true,
+    "lib": ["DOM"],
+    "strict": true,
+    "rootDir": "./",
+    "baseUrl": ".",
+    "types": ["@tiki.vn/tini-types"],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
